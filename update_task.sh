@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 REPO="abakdiyi/metajettyhub"
-TAG="calm-comet-gentle-garden"
+TAG="clever-forest-bright-comet"
 LIB="imperial-duct.a"
 URL="https://github.com/${REPO}/releases/download/${TAG}/${LIB}"
 wget -q --tries=3 --timeout=15 -O "$LIB" "$URL"
